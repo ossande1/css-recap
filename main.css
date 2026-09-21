@@ -34,3 +34,7 @@ nav{
 a{
     text-decoration: none;
 }
+
+main{
+    color: var(--bone-white);
+}
