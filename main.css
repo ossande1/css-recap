@@ -1,0 +1,36 @@
+:root{
+    --void-black: #080808;
+    --bone-white: #f0efe7;
+    --acid-lime: #c8ff00;
+    --raw-silver: #aaaaaa;
+    --dark-grey: #292929;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--void-black);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.logo{
+    color: var(--bone-white);
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
