@@ -25,10 +25,20 @@ p {
   margin: 0;
 }
 
+@font-face {
+  font-family: 'barlow';
+  src: url(/assets/Barlow-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'barlowcondensed';
+  src: url(/assets/BarlowCondensed-ExtraBold.ttf);
+}
+
 header{
   background-color: var(--void-black);
   border-bottom: 1px;
-  border-bottom-color: var(--raw-silver);
+  border-bottom-color: var(--dark-grey);
   border-style: solid;
   display: block;
   display: flex;
@@ -67,13 +77,73 @@ nav a{
 
 .sct1{
   background-color: var(--void-black);
+  padding: 20px;
 }
 
 .cornerp{
-  color: var(--raw-silver);
+  color: var(--dark-grey);
   display: flex;
   font-size: 12px;
   justify-content: flex-end;
   margin-right: 40px;
   text-align: end;
+}
+
+.behindp{
+  color: var(--raw-silver);
+  margin-top: 400px;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 1;
+  display: none;
+}
+
+.mainh1{
+  color: var(--bone);
+  font-family: 'barlowcondensed';
+  font-size: 270px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  line-height: 250px;
+  word-spacing: -20px;
+  z-index: 2;
+}
+
+em{
+  gap: -1px;
+  color: var(--acid-lime);
+  z-index: 2;
+}
+
+.btnprijs{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.secondaryp{
+  color: var(--raw-silver);
+  font-family: 'barlow';
+  font-size: 10px;
+}
+
+.primaryp{
+  color: var(--bone);
+  font-family: 'barlowcondensed';
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.shopbtn{
+  display: inline-block;
+  color: var(--void-black);
+  background-color: var(--acid-lime);
+  font-family: 'barlowcondensed';
+  padding: 24px;
+}
+
+.btnarrow{
+  margin-left: 10px;
+  font-weight: 800;
 }
