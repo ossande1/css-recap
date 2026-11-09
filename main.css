@@ -219,3 +219,156 @@ em{
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+
+#tech{
+  background-color: var(--void-black);
+  display: flex;
+  flex-direction: column;
+  color: var(--raw-silver);
+}
+
+.techh2{
+  color: var(--raw-silver);
+  font-family: "barlow";
+  font-size: 13px;
+  border-bottom: 3px solid var(--raw-silver);
+  border-top: 3px solid var(--raw-silver);
+  padding: 60px;
+}
+
+.techart{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2vw;
+  margin-top: 20px;
+  border-bottom: 3px solid var(--raw-silver);
+  margin-bottom: 20px;
+}
+
+.techart h3{
+  color: var(--bone);
+  margin-top: -2px;
+  font-size: 20px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+#listen{
+  background-image: url("/assets/headphones3.avif");
+  background-blend-mode: var(--void-black);
+  padding: 80px;
+}
+
+.listenh2{
+  display: flex;
+  font-family: "barlowcondensed";
+  font-size: 150px;
+  text-align: end;
+  justify-self: end;
+  margin-bottom: 0;
+}
+
+.listenem{
+  color: var(--bone);
+}
+
+.listenspan{
+  color: var(--acid-lime);
+}
+
+.listenp{
+  color: var(--raw-silver);
+  text-align: end;
+}
+
+#hours{
+  background-color: var(--bone);
+  padding: 20px;
+}
+
+.hoursh2{
+  font-family: "barlowcondensed";
+  font-size: 250px;
+  line-height: 200px;
+  margin-bottom: 4vh;
+}
+
+.hoursdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.hoursartm{
+  padding-right: 2vw;
+  padding-left: 2vw;
+  border-left: 3px solid var(--raw-silver);
+  border-right: 3px solid var(--raw-silver);
+}
+
+.hoursh3{
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.hoursp{
+  font-family: "barlowcondensed";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#shop{
+  background-color: var(--void-black);
+  color: var(--raw-silver);
+  padding: 40px;
+}
+
+.shoph2{
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.shopdiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.shopart1{
+  color: var(--bone);
+  padding: 8vh;
+  padding-right: 16vw;
+  border: 1px solid var(--raw-silver);
+}
+
+.shopart2{
+  background-color: var(--raw-silver);
+  color: var(--dark-grey);
+  padding: 8vh;
+  padding-right: 16vw;
+  border: 1px solid var(--void-black);
+}
+
+.shopart3{
+  background-color: var(--bone);
+  color: var(--dark-grey);
+  padding: 8vh;
+  padding-right: 16vw;
+  border: 1px solid var(--void-black);
+}
+
+.shopp{
+  margin-top: -5vh;
+  margin-bottom: 6vh;
+}
+
+.shoph31{
+  margin-top: 3vh;
+  font-family: "barlowcondensed";
+  font-size: 30px;
+}
+
+.shoph32{
+  margin-top: 3vh;
+  font-family: "barlowcondensed";
+  font-size: 30px;
+}
