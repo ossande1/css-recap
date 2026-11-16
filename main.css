@@ -372,3 +372,58 @@ em{
   font-family: "barlowcondensed";
   font-size: 30px;
 }
+
+#lastsect{
+  background-image: url(/assets/headphones2.avif);
+  padding: 25vh;
+}
+
+.lasth2{
+  font-family: "barlowcondensed";
+  font-size: 150px;
+  margin-left: -10vw;
+}
+
+.lasth2 em{
+  color: var(--bone);
+}
+
+.lastdiv{
+  display: flex;
+  margin-left: -10vw;
+}
+
+.lastdiv a{
+  display: block;
+  padding: 20px;
+  background-color: var(--acid-lime);
+  color: var(--void-black);
+  font-family: "barlowcondensed";
+}
+
+.lastdiv p{
+  color: var(--dark-grey);
+  margin-top: 20px;
+  margin-left: 1vw;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--dark-grey);
+  background-color: var(--void-black);
+  padding: 40px;
+}
+
+.footera{
+  font-family: "barlowcondensed";
+  font-size: 20px;
+}
+
+.footerp{
+  color: var(--dark-grey);
+}
+
+.footernav a{
+  color: var(--dark-grey);
+}
